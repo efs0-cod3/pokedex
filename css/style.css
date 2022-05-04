@@ -1,0 +1,211 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  background: url(/rainbow-badge/img/pkbg.png);
+}
+
+.logo {
+  text-align: center;
+}
+
+.poke {
+  width: 500px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.search-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+button {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+.c-img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+  background: #fafafa;
+  background-image: url(/rainbow-badge/img/pkbg.png);
+  text-align: center;
+}
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  background-color: #d8d8d8;
+  border-top-right-radius: 50px;
+  cursor: pointer;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.card__body p {
+  margin: 5px 0 10px 0;
+}
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag+.tag {
+  margin-left: .5em;
+}
+
+.tag-water {
+  background: #56CCF2;
+  background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+.tag-rock {
+  background: #633800;
+  background: linear-gradient(to bottom, #6d675f, #633800);
+  color: #fafafa;
+}
+
+.tag-fire {
+  background: #cb2d3e;
+  background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.tag-grass {
+  background: #2dcb2d;
+  background: linear-gradient(to bottom, #2dcb2d, #005e05);
+  color: #fafafa;
+}
+
+.tag-electric {
+  background: #ffea00;
+  background: linear-gradient(to bottom, #ffea00, #d88500);
+  color: #fafafa;
+}
+
+.tag-poison {
+  background: #86008f;
+  background: linear-gradient(to bottom, #86008f, #eb51ff);
+  color: #fafafa;
+}
+
+.tag-fighting {
+  background: #5d0000;
+  background: linear-gradient(to bottom, #5d0000, #ff3838);
+  color: #fafafa;
+}
+
+
+.tag-normal {
+  background: #505050;
+  background: linear-gradient(to bottom, #505050, #838383);
+  color: #fafafa;
+}
+/* - */
+.tag-dark {
+  background: #000000;
+  background: linear-gradient(to bottom, #000000, #2f2f2f);
+  color: #fafafa;
+}
+.tag-flying {
+  background: #377aff;
+  background: linear-gradient(to bottom, #377aff, #2957b4);
+  color: #fafafa;
+}
+.tag-bug {
+  background: #749531;
+  background: linear-gradient(to bottom, #749531, #ebffc2);
+  color: #fafafa;
+}
+.tag-ice {
+  background: #50e2ff;
+  background: linear-gradient(to bottom, #50e2ff, #84ebff);
+  color: #fafafa;
+}
+.tag-fairy {
+  background: #ffb6fb;
+  background: linear-gradient(to bottom, #ffb6fb, #ff9ffa);
+  color: #fafafa;
+}
+.tag-ghost {
+  background: #3700c3;
+  background: linear-gradient(to bottom, #3700c3, #6449aa);
+  color: #fafafa;
+}
+.tag-psychic {
+  background: #bb0086;
+  background: linear-gradient(to bottom, #b14893, #bb0086);
+  color: #fafafa;
+}
+.tag-steel {
+  background: #7675ac;
+  background: linear-gradient(to bottom, #7675ac, #9c9c9c);
+  color: #fafafa;
+}
+.tag-dragon {
+  background: #5925b8;
+  background: linear-gradient(to bottom, #7755b7, #5925b8);
+  color: #fafafa;
+}
+
+.tag-ground {
+  background: #824d4d;
+  background: linear-gradient(to bottom, #824d4d, #916060);
+  color: #fafafa;
+}
+
