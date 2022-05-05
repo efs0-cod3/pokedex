@@ -13,7 +13,7 @@
 body {
   padding: 50px;
   font-family: 'Roboto', sans-serif;
-  background: url(/rainbow-badge/img/pkbg.png);
+  background: url(https://github.com/efs0-cod3/pokedex/blob/main/img/pkbg.png);
 }
 
 .logo {
@@ -73,7 +73,7 @@ button {
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.3);
   border-radius: 1em;
   background: #fafafa;
-  background-image: url(/rainbow-badge/img/pkbg.png);
+  background-image: url(https://github.com/efs0-cod3/pokedex/blob/main/img/pkbg.png);
   text-align: center;
 }
 
