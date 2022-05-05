@@ -15,4 +15,4 @@ If you where a pokemon fan hope you get a great 'surpise' while testing this Wap
 
 ## Preview
 
-<code><img href="https://github.com/efs0-cod3/pokedex/blob/main/img/ezgif.gif"></code>
+<img href="https://github.com/efs0-cod3/pokedex/blob/main/img/ezgif.gif">
