@@ -13,7 +13,8 @@ If you where a pokemon fan hope you get a great 'surpise' while testing this Wap
 
 ## Link
 
-- [Live site](https://efs0-cod3.github.io/pokedex/)
+- [github pages](https://efs0-cod3.github.io/pokedex/)
+- [netlify](https://efpokedex.netlify.app)
 
 ## Preview
 
