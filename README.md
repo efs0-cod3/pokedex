@@ -10,4 +10,9 @@ If you where a pokemon fan hope you get a great 'surpise' while testing this Wap
 - JS
 
 ## Link
+
 - [Live site](https://efso-cod3.github.io/pokedex/)
+
+## Preview
+
+<code><img href=""></code>
