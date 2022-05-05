@@ -11,7 +11,7 @@ If you where a pokemon fan hope you get a great 'surpise' while testing this Wap
 
 ## Link
 
-- [Live site](https://efso-cod3.github.io/pokedex/)
+- [Live site](https://efs0-cod3.github.io/pokedex/)
 
 ## Preview
 
