@@ -3,6 +3,8 @@
 - This project came from the past... I grew up playing pokemon and this project took me there.
 If you where a pokemon fan hope you get a great 'surpise' while testing this Wapp.
 
+- Pokemon pattern made by Ryan Anderson!
+
 ## Tech
 
 - HTML
