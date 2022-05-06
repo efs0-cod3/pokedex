@@ -83,6 +83,6 @@ function getFetch(address) {
 
 
 function encounterGif(){
- let encounter = `<video autoplay="true" src="../img/pokeaudio.mp4" alt="card__image" class="card__image" width="600">`
+ let encounter = `<video autoplay="true" src="./img/pokeaudio.mp4" alt="card__image" class="card__image" width="600">`
   container.innerHTML = encounter
 }
