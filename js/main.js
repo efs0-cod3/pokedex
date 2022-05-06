@@ -30,7 +30,7 @@ setTimeout(()=>{
   const url = 'https://pokeapi.co/api/v2/pokemon/' + random
   getFetch(url)
   
-},2800)
+},1050)
 })
 
 // Normal 
@@ -83,6 +83,6 @@ function getFetch(address) {
 
 
 function encounterGif(){
- let encounter = `<video autoplay="true" src="./img/pokeaudio.mp4" alt="card__image" class="card__image" width="600">`
+ let encounter = `<img class='encounter' autoplay="true" src="./img/encounter.gif" alt="card__image" class="card__image" width="600">`
   container.innerHTML = encounter
 }
