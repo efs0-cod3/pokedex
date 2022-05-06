@@ -222,7 +222,6 @@ button {
 .encounter {
   border-radius: 8px;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.3);
-
 }
 
 @media all and (max-width: 800px) {
